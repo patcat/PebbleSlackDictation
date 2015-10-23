@@ -1,0 +1,23 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "thatpatrickguy@gmail.com",
+    "longName": "Slack Dictation",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "Slack Dictation",
+    "targetPlatforms": [
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "131d14db-1ef6-4f2d-b03a-ab6d51315b54",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
