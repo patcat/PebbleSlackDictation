@@ -15,8 +15,7 @@ static void handle_message(char *slack_message) {
   app_message_outbox_send();
 }
 
-static void dictation_session_callback(DictationSession *session, DictationSessionStatus status, 
-                                       char *transcription, void *context) {
+static void dictation_session_callback(DictationSession *session, DictationSessionStatus status, char *transcription, void *context) {
   if(status == DictationSessionStatusSuccess) {
     snprintf(display_message, sizeof(display_message), "Message sent!\n\n\"%s\"", transcription);
     text_layer_set_text(message_layer, display_message);
